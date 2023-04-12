@@ -18,7 +18,7 @@ export default function Root(){
         <h1 className="text-3xl font-bold mr-4 sm:text-4xl text-center">JEMA.</h1>
           
           <nav>
-            <ul className='flex justify-between'>
+            <ul className='flex justify-between font-bold font-sans'>
               <Link to="/test" className="w-1/5 text-center border hover:bg-blue-400 bg-opacity-100 hover:rounded-lg"><li className='mr-5'>Test</li></Link>
               <Link to="/client" className="w-1/5 text-center border hover:bg-blue-400 bg-opacity-100 hover:rounded-lg"><li className='mr-5'>Client</li></Link>
               <Link to="/mok" className="w-1/5 text-center border hover:bg-blue-400 bg-opacity-100 hover:rounded-lg"><li className='mr-5'>Revenue</li></Link>
